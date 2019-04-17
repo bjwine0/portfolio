@@ -101,6 +101,7 @@ section > :last-child,
 section > .container, section:last-child, article > :last-child,
 article > .container, article:last-child {
   margin-bottom: 0;
+  background: radial-gradient(black 13px, transparent 66%, transparent 22%);
 }
 
 .row > section, .row > article {
@@ -177,6 +178,7 @@ h2.alt strong {
 
 h3 {
   font-size: 1.5em;
+  color: brown;
 }
 
 header {
@@ -241,7 +243,9 @@ blockquote {
 
 p, ul, ol, dl, table {
   margin-bottom: 2em;
+  color: black;
 }
+
 
 br.clear {
   clear: both;
@@ -373,7 +377,24 @@ button,
   -webkit-transition: background-color 0.35s ease-in-out;
   -ms-transition: background-color 0.35s ease-in-out;
   transition: background-color 0.35s ease-in-out;
+
+  box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+  
+  background-color: #e84c3d;
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  /* animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1); */
 }
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 
 input[type="button"]:hover,
 input[type="submit"]:hover,

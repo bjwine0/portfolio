@@ -31,6 +31,7 @@
   -webkit-flex-grow: 1;
   -ms-flex-grow: 1;
   flex-grow: 1;
+  background-color: brown;
 }
 
 #header .bottom {
@@ -39,6 +40,7 @@
   -ms-flex-shrink: 0;
   flex-shrink: 0;
   padding: 1.5em 0 0.75em 0;
+  background: brown;
 }
 
 #header .bottom > :last-child {
@@ -182,7 +184,7 @@ margin-left: 375px;
   padding: 4em 0;
   box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
   text-align: center;
-  background-image: url("images/overlay.png");
+  background-image: url("assets/images/overlay.png");
 }
 
 #main > section.dark {
@@ -202,6 +204,7 @@ margin-left: 375px;
 #main > section.dark a {
   color: #fff;
   border-color: inherit;
+  background-color: brown;
 }
 
 #main > section.dark a:hover {
@@ -216,11 +219,11 @@ margin-left: 375px;
 
 #main > section.one {
   background-color: #81918E;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../assets/images/oakie-1076592-unsplash.jpg");
 }
 
 #main > section.two {
-  background-color: #f5fafa;
+  background-color: rgb(19, 38, 38);;
 }
 
 #main > section.three {
